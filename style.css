@@ -1,0 +1,140 @@
+#gamename {
+    text-align: center;
+    padding-top: 5px;
+    color: #ef9815;
+}
+#pssg{
+    font-family: 'Roboto', sans-serif;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    font-family: sans-serif;
+}
+.btns:active {
+    transform: scale(0.8);
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 36vh;
+    height: 36vh;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    border-radius: 50%;
+}
+
+#blue,
+#green,
+#red,
+#yellow {
+    height: 45%;
+    width: 45%;
+}
+
+#green {
+    border: 3px solid;
+    border-top-left-radius: 100%;
+    background-color: #74E291;
+}
+
+#red {
+    border: 3px solid;
+    border-top-right-radius: 100%;
+    background-color: #FF8080;
+}
+
+#yellow {
+    border: 3px solid;
+    border-bottom-left-radius: 100%;
+    background-color: #FDBF60;
+}
+
+#blue {
+    border: 3px solid;
+    border-bottom-right-radius: 100%;
+    background-color: #40A2D8;
+}
+
+.bottom {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.icons {
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.developer {
+    text-align: center;
+    color: black;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+@media(max-width:320px) {
+    #pssg {
+        text-align: center;
+        padding-top: 5px;
+        color: #ef9815;
+        font-size: 18px;
+    }
+
+    #btns {
+        display: flex;
+        justify-content: center;
+        padding: 12px;
+        gap: 15px;
+        font-family: sans-serif;
+    }
+    
+    #container {
+        display: flex;
+        justify-content: space-evenly;
+        border: 2px solid black;
+        width: 30vh;
+        height: 30vh;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        border-radius: 50%;
+    }
+    
+    #blue,
+    #green,
+    #red,
+    #yellow {
+        height: 44%;
+        width: 44%;
+    }
+    
+    #score,#start,#reset{
+        font-size: 12px;
+    }
+}
+
+.flash{
+    transform: scale(1.12);
+}
