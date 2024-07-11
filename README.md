@@ -8,4 +8,6 @@ Steps to run :
 3. Open html file
 4. Now Project is Running 😀
 
-LIVE LINK : 
+LIVE LINK : https://tomarpraveengithub460.github.io/Simon-Says-Game/
+
+Praveen Tomar
